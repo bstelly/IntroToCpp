@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Variables Exercise\Variables Assignment.cpp">
+    <ClCompile Include="Months.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

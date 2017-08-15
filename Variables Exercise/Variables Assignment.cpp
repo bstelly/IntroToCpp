@@ -14,8 +14,8 @@ void main()
 	//d) The total cost of all the games on your Steam library
 	float steamLibraryTotal;
 
-		//2. Select suitable data types to hold the following values :
-		//a) 121
+	//2. Select suitable data types to hold the following values :
+	//a) 121
 	int aNumber = 121;
 	//b) 9.4
 	float floatValue = 9.4f;
@@ -33,13 +33,13 @@ void main()
 	std::cout << "Input two numbers.\n";
 	int a, b;
 	std::cin >> a >> b;
-	std::cout << a << b << std::endl;
+	std::cout << a << "," << b << std::endl;
 	int c;
 	c = a;
 	a = b;
 	b = c;
 	
-	std::cout << a << b << std::endl;
+	std::cout << a << "," << b << std::endl;
 	system("pause");
 
 
@@ -53,5 +53,24 @@ void main()
 	system("pause");
 
 	//5. Redo question 3 but allows the user to input the values to be swapped and provide information
-	//in the console proving the data was swapped.
+	//in the console proving the data was swapped. 
+	int numA, numB;
+	int numC;
+	std::cout << "Input a number to represent numA \n";
+	std::cin >> numA;
+	std::cout << "numA is = " << numA << std::endl;
+	std::cout << "Input a second number to represent numB \n";
+	std::cin >> numB;
+	std::cout << "numB is = " << numB << std::endl;
+	std::cout << numA << "," << numB << std::endl;
+	numC = a;
+	std::cout << "numA is being copied to numC \n";
+	numA = numB;
+	std::cout << "numA is equal to numB \n";
+	numB = numC;
+	std::cout << "numB is equal to numC \n";
+	std::cout << numA << "," << numB << std::endl;
+	std::cout << "The values of the two numbers have been swapped \n";
+	system("pause");
+
 }
