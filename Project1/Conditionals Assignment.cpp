@@ -22,6 +22,7 @@ int main()
 	//(!B || A)
 	//true
 
+	
 	//2. Write an if statement that assigns 100 to the value of x when y is equal to zero
 	int x = 0;
 	bool y;
@@ -33,7 +34,7 @@ int main()
 	{
 		x = 100;
 	}
-	std::cout << x;
+	std::cout << x << std::endl;
 	system("pause");
 	
 	//3. Write a program that accepts an integer that represents the month of the year. 
@@ -89,9 +90,7 @@ int main()
 
 	system("pause");
 	
-		
-		
-
+	
 	//4. Redo problem 3 using if statements
 	
 	std::cout << "Input a number from 1-12 \n";
@@ -151,14 +150,11 @@ int main()
 		std::cout << "Error. Invalid Number. \n";
 	}
 
-
-
-
 	//5. Convert problem 2 into a ternary operator
 
 	std::cin >> y;
 	x = (y == 0) ? 100 : 0;
-	std::cout << x;
+	std::cout << x << std::endl;
 	system("pause");
 }
 

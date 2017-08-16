@@ -48,8 +48,9 @@ void main()
 	int num1, num2, num3, num4, num5;
 	std::cout << "Input five numbers.\n";
 	std::cin >> num1 >> num2 >> num3 >> num4 >> num5;
+	std::cout << "The range of these numbers is: \n";
 	int x = (num1 + num2 + num3 + num4 + num5) / 5;
-	std::cout << x;
+	std::cout << x << std::endl;
 	system("pause");
 
 	//5. Redo question 3 but allows the user to input the values to be swapped and provide information
@@ -63,12 +64,13 @@ void main()
 	std::cin >> numB;
 	std::cout << "numB is = " << numB << std::endl;
 	std::cout << numA << "," << numB << std::endl;
-	numC = a;
+	numC = numA;
 	std::cout << "numA is being copied to numC \n";
 	numA = numB;
 	std::cout << "numA is equal to numB \n";
 	numB = numC;
 	std::cout << "numB is equal to numC \n";
+	system("pause");
 	std::cout << numA << "," << numB << std::endl;
 	std::cout << "The values of the two numbers have been swapped \n";
 	system("pause");
