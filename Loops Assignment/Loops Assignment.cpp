@@ -8,26 +8,44 @@ int main()
 	{
 		std::cout << i << std::endl;
 	}
+
 	//The output counts from 0 to 99 by one.
+
+	//The output will be 0 and continue counting up to 99.
+
 
 	//b. 
 	for (int i = 100; i >= 0; i -= 2)
 	{
 		std::cout << i << std::endl;
 	}
+
 	//The output counts backwards from 100 to 0 by two.
 
 	//c. 
+
+	//The ouput will be 100 and count down by 2 until it reaches 0.
+	
+	//c.
+
 	int iter = 0;
 	while (iter != 25)
 	{
 		std::cout << iter << std::endl;
 		iter += 5;
 	}
+
 	//The output begins with zero and keeps adding 5 until it reaches 20.
 
 	
 	//d. The output begins with zero and keeps adding 5 until 25.
+
+	//The output will start at 0 and count up by five until the number reaches 20
+
+
+
+	//d. 
+
 	int counter = 0;
 	do
 	{
@@ -37,26 +55,47 @@ int main()
 		else
 			std::cout << counter << std::endl;
 	} while (counter < 10);
+
 	//There will be no output because the variable "counter" does not meet the condition for "do".
 
 
+	//There will be no output since the conditions were not met
+
+
+	
 	//2. Using a for loop, iterate through numbers 0 to 100.
-	//-For multiples of 3 print “Fizz”
-	//- For multiples of 5 print “Buzz”
-	//- For multiples of 3 and 5 print “FizzBuzz”
+	//-For multiples of 3 print â€œFizzâ€
+	//- For multiples of 5 print â€œBuzzâ€
+	//- For multiples of 3 and 5 print â€œFizzBuzzâ€
 	//- Otherwise print the number.
 	//Note, you will need to use the modulus operator (%)
-	for (int num = 0; num <= 100; num++)
+
+
+	for (int x = 0; x >= 100; x++)
 	{
-		if(num % 3)
-			
+		if (x % 3)
+		{
+			std::cout << "Fizz";
+		}
+		else if (x % 5)
+		{
+			std::cout << "Buzz";
+		}
+		else if (x % 3||5)
+		{
+			std::cout << "FizzBuzz";
+		}
+		else
+		{
+			std::cout << x;
+		}
+	
 	}
-
-
 
 
 	//3. Repeat problem 2 using a while loop and a do while loop.
 	//while loop
+
 
 
 
@@ -75,4 +114,9 @@ int main()
 	
 	
 	system("pause");
+
+	for (int aNum = 0; aNum >= 100; aNum += 2)
+	{
+		std::cout << aNum;
+	}
 }
