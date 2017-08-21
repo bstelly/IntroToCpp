@@ -8,9 +8,6 @@ int main()
 	{
 		std::cout << i << std::endl;
 	}
-
-	//The output counts from 0 to 99 by one.
-
 	//The output will be 0 and continue counting up to 99.
 
 
@@ -19,11 +16,6 @@ int main()
 	{
 		std::cout << i << std::endl;
 	}
-
-	//The output counts backwards from 100 to 0 by two.
-
-	//c. 
-
 	//The ouput will be 100 and count down by 2 until it reaches 0.
 	
 	//c.
@@ -34,12 +26,6 @@ int main()
 		std::cout << iter << std::endl;
 		iter += 5;
 	}
-
-	//The output begins with zero and keeps adding 5 until it reaches 20.
-
-	
-	//d. The output begins with zero and keeps adding 5 until 25.
-
 	//The output will start at 0 and count up by five until the number reaches 20
 
 
@@ -59,7 +45,7 @@ int main()
 	//There will be no output because the variable "counter" does not meet the condition for "do".
 
 
-	//There will be no output since the conditions were not met
+	
 
 
 	
@@ -70,40 +56,93 @@ int main()
 	//- Otherwise print the number.
 	//Note, you will need to use the modulus operator (%)
 
+	system("pause");
 
-	for (int x = 0; x >= 100; x++)
+	for (int x = 0; x <= 100; x++)
 	{
-		if (x % 3)
+		
+		if (x % 15 == 0)
 		{
-			std::cout << "Fizz";
+			std::cout << "FizzBuzz" << std::endl;
 		}
-		else if (x % 5)
+		else if (x % 3 == 0)
 		{
-			std::cout << "Buzz";
+			std::cout << "Fizz" << std::endl;
 		}
-		else if (x % 3||5)
+		else if (x % 5 == 0)
 		{
-			std::cout << "FizzBuzz";
+			std::cout << "Buzz" << std::endl;
 		}
+	
 		else
 		{
-			std::cout << x;
+			std::cout << x << std::endl;
 		}
 	
 	}
 
-
+	system("pause");
 	//3. Repeat problem 2 using a while loop and a do while loop.
-	//while loop
+	//do while loop
 
+	int num = 0;
+	{
+		do
+		{
+			if (num % 15 == 0)
+			{
+				std::cout << "FizzBuzz" << std::endl;
+			}
+			else if (num % 3 == 0)
+			{
+				std::cout << "Fizz" << std::endl;
+			}
+			else if (num % 5 == 0)
+			{
+				std::cout << "Buzz" << std::endl;
+			}
 
+			else
+			{
+				std::cout << num << std::endl;
+			
+			}
+			num++;
+		}
 
+		while (num <= 100);
+	}
+		system("pause");
+	
+		//While Loop
+		while (num <= 100)
+		{
+			if (num % 15 == 0)
+			{
+				std::cout << "FizzBuzz" << std::endl;
+			}
+			else if (num % 3 == 0)
+			{
+				std::cout << "Fizz" << std::endl;
+			}
+			else if (num % 5 == 0)
+			{
+				std::cout << "Buzz" << std::endl;
+			}
 
+			else
+			{
+				std::cout << num << std::endl;
 
-
-
-
-	//4. Create a loop that prints all even numbers between 0 and 100, without printing 0 or 100
+			}
+			num++;
+		}
+		
+		system("pause");
+		
+		
+		
+		//4. Create a loop that prints all even numbers between 0 and 100, without printing 0 or 100
 
 	int evenNum = 0;
 	while (evenNum != 100)
@@ -115,8 +154,4 @@ int main()
 	
 	system("pause");
 
-	for (int aNum = 0; aNum >= 100; aNum += 2)
-	{
-		std::cout << aNum;
 	}
-}
