@@ -41,10 +41,13 @@ int main()
 	//3. Declare an array with the values 1 - 10;
 	int myArray[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
+	
 	//4. Using the array created in problem 3 print the 5th index.
 	std::cout << myArray[4] << std::endl;
 
 	system("pause");
+	
+	
 	
 	//5. Using a loop, populate an array of size 10 with the values 10 - 1.
 	int i;
@@ -62,7 +65,13 @@ int main()
 	//number into the array. Display the largest and smallest numbers 
 	//to the console.
 	int anArray[5];
-	int x;
+	std::cin >> anArray[0];
+	std::cin >> anArray[1];
+	std::cin >> anArray[2];
+	std::cin >> anArray[3];
+	std::cin >> anArray[4];
+	
+	
 
 	
 	
