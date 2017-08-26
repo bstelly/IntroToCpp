@@ -87,8 +87,23 @@ int main()
 				}
 			}
 			float avgEatenByCat = sumEatenByCat / 7;
-				std::cout << "During the week, Bob ate an average of " << avgEatenByCat << " kilos." << std::endl;
+				std::cout << "During the week, Cat ate an average of " << avgEatenByCat << " kilos." << std::endl;
+				
+				system("pause");
+				
 
+		float sumEatenBySteve = 0;
+			for (int row = 2; row < 3; row++)
+			{
+				for (int col = 0; col < 7; col++)
+				{
+					sumEatenBySteve = sumEatenBySteve += kilosOfFood[row][col];
+				}
+			}
+			float avgEatenBySteve = sumEatenBySteve / 7;
+				std::cout << "During the week, Steve ate an average of " << avgEatenBySteve << " kilos." << std::endl;
+			
+			system("pause");
 
 
 
