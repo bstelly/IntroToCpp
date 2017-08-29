@@ -144,7 +144,7 @@ int main()
 		
 		//4. Create a loop that prints all even numbers between 0 and 100, without printing 0 or 100
 
-	int evenNum = 0;
+	int evenNum = 2;
 	while (evenNum != 100)
 	{
 		std::cout << evenNum << std::endl;

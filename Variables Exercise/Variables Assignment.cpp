@@ -74,5 +74,4 @@ void main()
 	std::cout << numA << "," << numB << std::endl;
 	std::cout << "The values of the two numbers have been swapped \n";
 	system("pause");
-
 }
