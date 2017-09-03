@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "HelloWorld\HelloWorld.vcxproj", "{95851C79-9E9B-438E-8669-95909A201D5D}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Functions", "Functions\Functions.vcxproj", "{D993CB1E-A726-41E9-B1E7-CA8EA538ECD2}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Functions Assignment", "Functions Assignment\Functions Assignment.vcxproj", "{6FB9004A-9F66-405F-8AC8-F1839520F0E7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice", "Practice\Practice.vcxproj", "{89EA28FE-31A8-46EE-BDAD-548DBDB3F248}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,8 +103,19 @@ Global
 		{6FB9004A-9F66-405F-8AC8-F1839520F0E7}.Release|x64.Build.0 = Release|x64
 		{6FB9004A-9F66-405F-8AC8-F1839520F0E7}.Release|x86.ActiveCfg = Release|Win32
 		{6FB9004A-9F66-405F-8AC8-F1839520F0E7}.Release|x86.Build.0 = Release|Win32
+		{89EA28FE-31A8-46EE-BDAD-548DBDB3F248}.Debug|x64.ActiveCfg = Debug|x64
+		{89EA28FE-31A8-46EE-BDAD-548DBDB3F248}.Debug|x64.Build.0 = Debug|x64
+		{89EA28FE-31A8-46EE-BDAD-548DBDB3F248}.Debug|x86.ActiveCfg = Debug|Win32
+		{89EA28FE-31A8-46EE-BDAD-548DBDB3F248}.Debug|x86.Build.0 = Debug|Win32
+		{89EA28FE-31A8-46EE-BDAD-548DBDB3F248}.Release|x64.ActiveCfg = Release|x64
+		{89EA28FE-31A8-46EE-BDAD-548DBDB3F248}.Release|x64.Build.0 = Release|x64
+		{89EA28FE-31A8-46EE-BDAD-548DBDB3F248}.Release|x86.ActiveCfg = Release|Win32
+		{89EA28FE-31A8-46EE-BDAD-548DBDB3F248}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F0DBDF1-A29E-4C3F-95A3-B27A3BBA798A}
 	EndGlobalSection
 EndGlobal
