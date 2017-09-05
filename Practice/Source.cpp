@@ -10,8 +10,11 @@ int main()
 
 
 	int myArray[5];
-	for (int iter = 0; iter < 5; iter++);
-
+	int smallest = myArray[0];
+	for (int iter = 0; iter < 5; iter++)
+	{
+		myArray[iter];
+	}
 
 
 
