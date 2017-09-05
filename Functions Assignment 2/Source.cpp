@@ -13,6 +13,11 @@ int Add(int a, int b)
 	return result;
 }
 
+int Subtraction(int a, int b)
+{
+	int result = a - b;
+	return result;
+}
 //2. Create a function that takes in two arguments, one being an array of float and the other
 //   being the size of the array. It must return the largest value in the array.
 
