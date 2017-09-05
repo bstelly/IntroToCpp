@@ -296,8 +296,8 @@ void main()
 	EvenNumbersLoop();
 	YEqualToZero();
 	Month();
-	ArrayOneThroughTen;
+	ArrayOneThroughTen();
 	ArraySizeFive();
-	ThreeByThreeArray;
+	ThreeByThreeArray();
 	DaenerysTargaryenDragonProblem();
 }

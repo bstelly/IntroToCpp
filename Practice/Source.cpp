@@ -11,9 +11,9 @@ int main()
 
 	int myArray[5];
 	int smallest = myArray[0];
-	for (int iter = 0; iter < 5; iter++)
+	for (int i = 10; i < 5; i =+ 10)
 	{
-		myArray[iter];
+		myArray[i];
 	}
 
 

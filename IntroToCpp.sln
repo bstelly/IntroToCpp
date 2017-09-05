@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Function Practice", "Functi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice", "Practice\Practice.vcxproj", "{7537DC41-C6E4-4B4C-845E-A3053E63B31A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Functions Assignment 2", "Functions Assignment 2\Functions Assignment 2.vcxproj", "{01C2395B-2400-466A-8A25-5022DF0CB63E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{7537DC41-C6E4-4B4C-845E-A3053E63B31A}.Release|x64.Build.0 = Release|x64
 		{7537DC41-C6E4-4B4C-845E-A3053E63B31A}.Release|x86.ActiveCfg = Release|Win32
 		{7537DC41-C6E4-4B4C-845E-A3053E63B31A}.Release|x86.Build.0 = Release|Win32
+		{01C2395B-2400-466A-8A25-5022DF0CB63E}.Debug|x64.ActiveCfg = Debug|x64
+		{01C2395B-2400-466A-8A25-5022DF0CB63E}.Debug|x64.Build.0 = Debug|x64
+		{01C2395B-2400-466A-8A25-5022DF0CB63E}.Debug|x86.ActiveCfg = Debug|Win32
+		{01C2395B-2400-466A-8A25-5022DF0CB63E}.Debug|x86.Build.0 = Debug|Win32
+		{01C2395B-2400-466A-8A25-5022DF0CB63E}.Release|x64.ActiveCfg = Release|x64
+		{01C2395B-2400-466A-8A25-5022DF0CB63E}.Release|x64.Build.0 = Release|x64
+		{01C2395B-2400-466A-8A25-5022DF0CB63E}.Release|x86.ActiveCfg = Release|Win32
+		{01C2395B-2400-466A-8A25-5022DF0CB63E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
