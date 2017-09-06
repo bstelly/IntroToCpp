@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice", "Practice\Practi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Functions Assignment 2", "Functions Assignment 2\Functions Assignment 2.vcxproj", "{01C2395B-2400-466A-8A25-5022DF0CB63E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TicTacToe", "TicTacToe\TicTacToe.vcxproj", "{FE8F5C95-7BDD-4D9C-96FC-090093507D55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{01C2395B-2400-466A-8A25-5022DF0CB63E}.Release|x64.Build.0 = Release|x64
 		{01C2395B-2400-466A-8A25-5022DF0CB63E}.Release|x86.ActiveCfg = Release|Win32
 		{01C2395B-2400-466A-8A25-5022DF0CB63E}.Release|x86.Build.0 = Release|Win32
+		{FE8F5C95-7BDD-4D9C-96FC-090093507D55}.Debug|x64.ActiveCfg = Debug|x64
+		{FE8F5C95-7BDD-4D9C-96FC-090093507D55}.Debug|x64.Build.0 = Debug|x64
+		{FE8F5C95-7BDD-4D9C-96FC-090093507D55}.Debug|x86.ActiveCfg = Debug|Win32
+		{FE8F5C95-7BDD-4D9C-96FC-090093507D55}.Debug|x86.Build.0 = Debug|Win32
+		{FE8F5C95-7BDD-4D9C-96FC-090093507D55}.Release|x64.ActiveCfg = Release|x64
+		{FE8F5C95-7BDD-4D9C-96FC-090093507D55}.Release|x64.Build.0 = Release|x64
+		{FE8F5C95-7BDD-4D9C-96FC-090093507D55}.Release|x86.ActiveCfg = Release|Win32
+		{FE8F5C95-7BDD-4D9C-96FC-090093507D55}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
