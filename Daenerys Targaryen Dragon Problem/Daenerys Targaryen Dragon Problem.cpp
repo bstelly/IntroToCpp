@@ -105,7 +105,7 @@ int main()
 			
 			system("pause");
 
-	//Can't figure out how to compare all the data in the array and have the output
+	//Can't figure out how to 
 	//tell the day and dragons name that the most and least amount of food was eaten.
 
 
