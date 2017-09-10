@@ -1,37 +1,39 @@
 #include <iostream>
-
 	
+
+
+
+
+
 void Grid()
 {
-	int grid[3][3];
-	std::cout << grid[0][0] << "|" << grid[0][1] << "|" << grid[0][2] << std::endl;
+	std::cout << 1 << "|" << 2 << "|" << 3 << std::endl;
 	std::cout << "=====" << std::endl;
-	std::cout << grid[1][0] << "|" << grid[1][1] << "|" << grid[1][2] << std::endl;
+	std::cout << 4 << "|" << 5 << "|" << 6 << std::endl;
 	std::cout << "=====" << std::endl;
-	std::cout << grid[2][0] << "|" << grid[2][1] << "|" << grid[2][2] << std::endl;
+	std::cout << 7 << "|" << 8 << "|" << 9 << std::endl;
 }
 
 
 
 
-int main()
+void main()
 {
 	
+
+	int one = 4;
+	int two;
+	int three;	
+	int four;
+	int five;
+	int six;
+	int seven;
+	int eight;
+	int nine;
+
 	Grid();
-
-
-
-
-
-
-
-
-
+	
 	system("pause");
-
-
-}
-
-
+	}
 
 
