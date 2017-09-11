@@ -105,8 +105,6 @@ int main()
 			
 			system("pause");
 
-	//Can't figure out how to 
-	//tell the day and dragons name that the most and least amount of food was eaten.
 
 
 

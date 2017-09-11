@@ -18,6 +18,19 @@ int Subtraction(int a, int b)
 	int result = a - b;
 	return result;
 }
+
+int Multiplication(int a, int b)
+{
+	int result = a * b;
+	return result;
+}
+
+int Division(int a, int b)
+{
+	int result = a / b;
+	return result;
+}
+
 //2. Create a function that takes in two arguments, one being an array of float and the other
 //   being the size of the array. It must return the largest value in the array.
 
@@ -34,12 +47,3 @@ int Subtraction(int a, int b)
 //   and returns the sum of the values in the array.
 
 
-
-int main()
-{
-	std::cout << Add(32, 21) << std::endl;
-
-
-	system("pause");
-
-}
