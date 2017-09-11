@@ -1,4 +1,5 @@
 #include <iostream>
+
 char board[9] = { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
 char piece;
 void Board()
@@ -57,11 +58,6 @@ int GameOver()
 	}
 }
 
-
-
-
-
-
 int main()
 {
 	std::cout << "Tic Tac Toe" << std::endl;
@@ -82,7 +78,7 @@ int main()
 			player = (player % 2) ? 1 : 2;
 			std::cout << "Player " << player << " it is your turn. Enter a number." << std::endl;
 			std::cin >> input;
-			piece = (player == 1) ? 'X' : 'O';
+			piece = (player == 1) ? 'X' : 'O';		//Ternary operator to determine which piece is used for which player
 
 			if (input == 1 && board[0] == '1')
 			{
@@ -134,12 +130,13 @@ int main()
 	{
 		player--;
 		std::cout << "Player " << player << " Wins!!!" << std::endl;
+		system("pause");
 	}
 	else
 	{
 		std::cout << "Draw. Game Over." << std::endl;
+		system("pause");
 	}
-	system("pause");
+	
 }
-
 
