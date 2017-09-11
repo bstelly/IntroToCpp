@@ -70,17 +70,17 @@ int main()
 	
 	int player = 1;
 	int input;
-	int game;     //  1 - game is being played,   2 - game over, winner,     0 - game over, no winner
+	int game;     //  1 - game is being played,   2 - game over with winner,     0 - game over with no winner
 
 	//main game loop
 	do
-		{
+		{	
 			Board();
 			player = (player % 2) ? 1 : 2;
 			std::cout << "Player " << player << " it is your turn. Enter a number." << std::endl;
 			std::cin >> input;
 			piece = (player == 1) ? 'X' : 'O';		//Ternary operator to determine which piece is used for which player
-
+			system("cls");
 			if (input == 1 && board[0] == '1')			
 			{
 				board[0] = piece;
@@ -120,7 +120,7 @@ int main()
 			else
 			{
 				std::cout << "Error. Invalid Move" << std::endl;
-				player--;     //Allows player 2 to try again
+				player--;     //Allows Player 2 to try again
 			}
 			game = GameOver();
 			player++;
