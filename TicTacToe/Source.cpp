@@ -4,11 +4,12 @@ char board[9] = { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
 char piece;
 void Board()
 {
-	std::cout << board[0] << "|" << board[1] << "|" << board[2] << std::endl;
-	std::cout << "=====" << std::endl;
-	std::cout << board[3] << "|" << board[4] << "|" << board[5] << std::endl;
-	std::cout << "=====" << std::endl;
-	std::cout << board[6] << "|" << board[7] << "|" << board[8] << std::endl;
+	std::cout << " " << std::endl;
+	std::cout << " " << board[0] << " | " << board[1] << " | " << board[2] << std::endl;
+	std::cout << "===========" << std::endl;
+	std::cout << " " << board[3] << " | " << board[4] << " | " << board[5] << std::endl;
+	std::cout << "===========" << std::endl;
+	std::cout << " " << board[6] << " | " << board[7] << " | " << board[8] << std::endl;
 	std::cout << " " << std::endl;
 }
 
@@ -80,7 +81,7 @@ int main()
 			std::cin >> input;
 			piece = (player == 1) ? 'X' : 'O';		//Ternary operator to determine which piece is used for which player
 
-			if (input == 1 && board[0] == '1')
+			if (input == 1 && board[0] == '1')			
 			{
 				board[0] = piece;
 			}
@@ -119,6 +120,7 @@ int main()
 			else
 			{
 				std::cout << "Error. Invalid Move" << std::endl;
+				player--;     //Allows player 2 to try again
 			}
 			game = GameOver();
 			player++;
