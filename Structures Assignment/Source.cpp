@@ -72,13 +72,6 @@ int main()
 
 	}
 	system("pause");
-	Vehicle BrettCar = { 4, 5, "Toyta", "Camry", 2004 };
-	Vehicle MatthewCar = { 4, 2, "Nissan", "Frontier", 2001 };
-	Vehicle LukeCar = { 4, 4, "Subaru", "BRZ", 2014 };
-	Vehicle StevenCar = { 2, 1, "Mongoose", "Legion L40", 2017 };
-
-	CarInformation(BrettCar);
-	
 
 
 }
