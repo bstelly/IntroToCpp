@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Zombie.h"
 
 //Create a class representing a zombie.
 //- Each zombie should have health and an attack value.
