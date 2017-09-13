@@ -32,10 +32,10 @@
     <ClCompile Include="Vehicle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Point2D.cpp">
+    <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="Point2D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

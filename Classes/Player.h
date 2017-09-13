@@ -24,5 +24,7 @@ public:
 	Player();
 	Player(Point2D location, char name[]);
 	void MovePlayer(Point2D direction);
+	bool LevelUp();
 	bool levelUp;
+	int levelCap = 110;
 };
