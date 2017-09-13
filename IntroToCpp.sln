@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Structures Assignment", "St
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Classes", "Classes\Classes.vcxproj", "{61CF1F41-60AE-45C1-9986-3C4D2F0D1003}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Zombie Fight Club", "Zombie Fight Club\Zombie Fight Club.vcxproj", "{45720323-646A-4791-A2A4-3128D24BEA26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{61CF1F41-60AE-45C1-9986-3C4D2F0D1003}.Release|x64.Build.0 = Release|x64
 		{61CF1F41-60AE-45C1-9986-3C4D2F0D1003}.Release|x86.ActiveCfg = Release|Win32
 		{61CF1F41-60AE-45C1-9986-3C4D2F0D1003}.Release|x86.Build.0 = Release|Win32
+		{45720323-646A-4791-A2A4-3128D24BEA26}.Debug|x64.ActiveCfg = Debug|x64
+		{45720323-646A-4791-A2A4-3128D24BEA26}.Debug|x64.Build.0 = Debug|x64
+		{45720323-646A-4791-A2A4-3128D24BEA26}.Debug|x86.ActiveCfg = Debug|Win32
+		{45720323-646A-4791-A2A4-3128D24BEA26}.Debug|x86.Build.0 = Debug|Win32
+		{45720323-646A-4791-A2A4-3128D24BEA26}.Release|x64.ActiveCfg = Release|x64
+		{45720323-646A-4791-A2A4-3128D24BEA26}.Release|x64.Build.0 = Release|x64
+		{45720323-646A-4791-A2A4-3128D24BEA26}.Release|x86.ActiveCfg = Release|Win32
+		{45720323-646A-4791-A2A4-3128D24BEA26}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
