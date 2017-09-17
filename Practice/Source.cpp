@@ -2,28 +2,28 @@
 
 int main()
 {
+	int one = 1;
+	int two = 2;
+	int input;
 
-
-
-	//Practice comparing data in an array and printing smallest and largest values
-
-
-
-	int myArray[5];
-	int smallest = myArray[0];
-	for (int i = 10; i < 5; i =+ 10)
+	std::cin >> input;
+	switch (input)
 	{
-		myArray[i];
+	case 1:
+	{
+		int one = 'X';
+		break;
+	}
+	case 2:
+	{
+		int two = 'X';
+		break;
 	}
 
+	std::cout << one << std::endl;
+	system("pause");
 
 
 
-
-
-
-
-
-
-
+	}
 }
