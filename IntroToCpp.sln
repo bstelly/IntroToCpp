@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "HelloWorld\HelloWorld.vcxproj", "{95851C79-9E9B-438E-8669-95909A201D5D}"
 EndProject
@@ -36,6 +36,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Classes", "Classes\Classes.vcxproj", "{61CF1F41-60AE-45C1-9986-3C4D2F0D1003}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Zombie Fight Club", "Zombie Fight Club\Zombie Fight Club.vcxproj", "{45720323-646A-4791-A2A4-3128D24BEA26}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Classes Review", "Classes Review\Classes Review.vcxproj", "{3E00FCE3-34AA-474A-9B39-D197E3971171}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -181,6 +183,14 @@ Global
 		{45720323-646A-4791-A2A4-3128D24BEA26}.Release|x64.Build.0 = Release|x64
 		{45720323-646A-4791-A2A4-3128D24BEA26}.Release|x86.ActiveCfg = Release|Win32
 		{45720323-646A-4791-A2A4-3128D24BEA26}.Release|x86.Build.0 = Release|Win32
+		{3E00FCE3-34AA-474A-9B39-D197E3971171}.Debug|x64.ActiveCfg = Debug|x64
+		{3E00FCE3-34AA-474A-9B39-D197E3971171}.Debug|x64.Build.0 = Debug|x64
+		{3E00FCE3-34AA-474A-9B39-D197E3971171}.Debug|x86.ActiveCfg = Debug|Win32
+		{3E00FCE3-34AA-474A-9B39-D197E3971171}.Debug|x86.Build.0 = Debug|Win32
+		{3E00FCE3-34AA-474A-9B39-D197E3971171}.Release|x64.ActiveCfg = Release|x64
+		{3E00FCE3-34AA-474A-9B39-D197E3971171}.Release|x64.Build.0 = Release|x64
+		{3E00FCE3-34AA-474A-9B39-D197E3971171}.Release|x86.ActiveCfg = Release|Win32
+		{3E00FCE3-34AA-474A-9B39-D197E3971171}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
