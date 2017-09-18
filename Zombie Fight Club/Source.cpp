@@ -41,7 +41,7 @@ while (winner == false)
 
 
 
-winner = (remaining < 1) true : false;
+winner = (remaining < 1) ? true : false;
 
 
 }
