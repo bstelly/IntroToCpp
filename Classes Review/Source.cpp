@@ -28,8 +28,9 @@ int main()
 	bool winner = false;
 	int zombiesLeft = 0;
 
-	while (winner == false)
+	do
 	{
+		zombiesLeft = 0;
 		int opponentOne = rand() % 5;
 		int opponentTwo = rand() % 5;
 		
@@ -45,8 +46,7 @@ int main()
 		}
 
 		winner = (zombiesLeft > 1) ? false : true;
-	}
-	std::cout << zombies[2].GetHealth();
+	} while (winner == false);
 	
 	system("pause");
 
