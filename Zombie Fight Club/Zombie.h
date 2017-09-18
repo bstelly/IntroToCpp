@@ -7,5 +7,7 @@ private:
 	int mAttack;
 
 public:
+	Zombie();
 	void TakeDamage(int amount);
+	Zombie(int health, int attack);
 };
