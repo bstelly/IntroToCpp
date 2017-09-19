@@ -8,7 +8,7 @@
 //- Using the zombie class, create a game where a number of zombies attack each other until only one remains.
 //- You must have a written UML of the zombie class.This can be done either on paper, google draw, gliffy.
 
-int main
+int main()
 {
 	Zombie zombie[5];
 zombie[1] = {100, 30};
