@@ -72,16 +72,9 @@ int GameOver()
 	}
 }
 
-
 void PlayGame()
 {
-	std::cout << "Tic Tac Toe" << std::endl;
-	std::cout << " " << std::endl;
-	std::cout << "How to Play: " << std::endl;
-	std::cout << "Player One is 'X' and Player Two is 'O'.  On your turn, choose a number to place your 'X' or 'O'." << std::endl;
-	std::cout << " " << std::endl;
 	//Board is generated and displayed
-
 	int player = 1;
 	int input;
 	int game;     //  1 - game is being played,   2 - game over with winner,     0 - game over with no winner
@@ -158,6 +151,11 @@ void PlayGame()
 
 int main()
 {
+	std::cout << "Tic Tac Toe" << std::endl;
+	std::cout << " " << std::endl;
+	std::cout << "How to Play: " << std::endl;
+	std::cout << "Player One is 'X' and Player Two is 'O'.  On your turn, choose a number to place your 'X' or 'O'." << std::endl;
+	std::cout << " " << std::endl;
 	PlayGame();
 	char board[9] = { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
 	std::cout << "Would you like to play again? (Select a number)" << std::endl;
@@ -172,5 +170,4 @@ int main()
 		std::cout << "1. Yes        2. No" << std::endl;
 		std::cin >> playAgain;
 	}
-
 }
