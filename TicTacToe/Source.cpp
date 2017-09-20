@@ -157,7 +157,7 @@ int main()
 	std::cout << "Player One is 'X' and Player Two is 'O'.  On your turn, choose a number to place your 'X' or 'O'." << std::endl;
 	std::cout << " " << std::endl;
 	PlayGame();
-	char board[9] = { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
+	std::cout << std::endl;
 	std::cout << "Would you like to play again? (Select a number)" << std::endl;
 	int playAgain;
 	std::cout << "1. Yes        2. No" << std::endl;
@@ -166,6 +166,7 @@ int main()
 	{
 		system("cls");
 		PlayGame();
+		std::cout << std::endl;
 		std::cout << "Would you like to play again? (Select a number)" << std::endl;
 		std::cout << "1. Yes        2. No" << std::endl;
 		std::cin >> playAgain;
