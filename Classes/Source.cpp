@@ -20,8 +20,8 @@ int main()
 	brett.DisplayInfo();
 	system("pause");
 
-	Person two;
-	Person child = brett + two;
+	Person personTwo;
+	Person child = brett + personTwo;
 
 
 	system("pause");
