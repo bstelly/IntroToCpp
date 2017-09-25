@@ -24,6 +24,5 @@ int main()
 	Person child = brett + two;
 
 
-
 	system("pause");
 }
