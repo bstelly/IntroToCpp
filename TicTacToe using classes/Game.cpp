@@ -1,4 +1,5 @@
 #include "Game.h"
+#include "Player.h"
 #include <iostream>
 
  char Game::Board()
@@ -72,7 +73,7 @@
 	 board[7] = '8';
 	 board[8] = '9';
  }
- void Game::GameOver()
+ int Game::GameOver()
  {
 	 if (CheckWin() == 2)
 	 {
