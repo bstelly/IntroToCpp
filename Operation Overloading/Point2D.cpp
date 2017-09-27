@@ -11,13 +11,7 @@ Point2D::Point2D(float x, float y)
 	mX = x;
 	mY = y;
 }
-Point2D Point2D::Add(Point2D point)
-{
-	Point2D newPoint;
-	newPoint.mX = mX + point.mX;
-	newPoint.mY = mY + point.mY;
-	return newPoint;
-}
+
 Point2D Point2D::operator + (const Point2D & other)
 {
 	Point2D temp;

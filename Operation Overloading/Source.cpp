@@ -3,8 +3,8 @@
 #include "Player.h"
 int main()
 {
-	Point2D positionOne;									// x = 0 , y = 0
-	Point2D positionTwo(10, 20);							// x = 10 , y = 20
+	Point2D positionOne;									
+	Point2D positionTwo(10, 20);
 	Point2D newPositionOne = positionOne + positionTwo;		
 	Point2D newPositionTwo = positionOne - positionTwo;
 	Point2D newPositionThree = positionOne * positionTwo;
@@ -18,14 +18,14 @@ int main()
 	std::cout << std::endl;
 	newPositionTwo.PrintPoint();
 	system("pause");
-
-	int direction;
+	char direction;
 	Player brett("Brett");
 	std::cin >> direction;
 	brett.Move(direction);
-	brett;
-	
 
+
+
+	
 
 
 

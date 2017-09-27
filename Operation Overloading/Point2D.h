@@ -18,7 +18,5 @@ public:
 	float GetX();
 	float GetY();
 	void PrintPoint();
-	bool operator == (const Point2D & other);
-	Point2D Point2D::Add(Point2D point);
-	
+	bool operator == (const Point2D & other);	
 };

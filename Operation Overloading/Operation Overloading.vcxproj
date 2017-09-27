@@ -113,10 +113,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Dungeon.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Point2D.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Dungeon.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Point2D.cpp" />
     <ClCompile Include="Source.cpp" />
