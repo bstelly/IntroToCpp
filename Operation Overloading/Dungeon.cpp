@@ -3,7 +3,7 @@
 
 Dungeon::Dungeon()
 {
-
+	int dungeon[10][10];
 }
 
 void Dungeon::GenRooms()
