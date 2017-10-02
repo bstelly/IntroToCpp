@@ -14,7 +14,7 @@ private:
 public:
 	Dungeon();
 	Dungeon(Player* player, int rows, int cols);
-	bool CheckPlayerPosition();
+	int CheckPlayerPosition();
 	void PrintRooms();
 
 };
